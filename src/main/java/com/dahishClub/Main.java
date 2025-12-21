@@ -6,12 +6,9 @@ import java.util.List;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        List<String> names = List.of("Ali", "Mohammad", "Naser","Khafi");
-        List<Integer> ages = List.of(20, 21, 22, 25);
+    int [] arr ={1,2,3,4,5,6,7,8,9};
+    for(int i=0;i<arr.length;i++){
 
-        for (int i = 0; i < names.size(); i++) {
-            System.out.println(names.get(i) + " " + ages.get(i));
-        }
+    }
     }
 }
